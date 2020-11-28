@@ -1,0 +1,29 @@
+.container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 2px solid #212121;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container form {
+    width: 100%;
+    margin-bottom: 0.2em;
+}
+
+.container input {
+    display: block;
+    width: calc(100% - 2*2px);
+    height: 5em;
+    padding: 0;
+    font-size: 1.5em;
+
+}
+
+.container ul:last-child {
+    background-color: palevioletred;
+    flex-grow: 2;
+}
+

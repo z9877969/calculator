@@ -1,0 +1,17 @@
+.container {
+    width: calc((350px - 2em - (0.1em * 3)) / 4 * 3);
+    height: 400px;
+    margin-right: 0.2em;
+    /* padding: 5%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container li {
+    width: calc(100% / 3);
+}
+
+.container li:first-child {
+    order: 1;
+    width: 100%;
+}

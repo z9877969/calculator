@@ -1,0 +1,9 @@
+.container {
+    flex-grow: 2;
+    /* max-height: 100%; */
+}
+
+.container li {
+    height: calc(100% / 5);
+    font-size: 2em;
+}
