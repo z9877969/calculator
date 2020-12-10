@@ -1,7 +1,6 @@
 import React, { lazy } from "react";
 import { withRouter, Switch, Route, NavLink } from "react-router-dom";
-import axios from "axios";
-import * as b from "basiclightbox";
+import * as b from "";
 import CalculatorPage from "../../pages/pageCalculator/pageCalculator";
 import HomePage from "../../pages/pageHome";
 import Modal from "../Modal/Modal";
@@ -76,15 +75,10 @@ class App extends React.Component {
             component={CalculatorPage}
           />
           <Route exact path="/next" component={HomePage} />
-          {/* <Calculator title="Calculator" getIsModal={this.getIsModal} /> */}
-          {/* {this.state.isModal && <Modal getIsModal={this.getIsModal}/>} */}
         </Switch>
       </>
     );
   }
 }
 
-// export default withRouter(App);
 export default App;
-
-// <Header genres={genres}/>
