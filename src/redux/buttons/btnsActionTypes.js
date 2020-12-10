@@ -1,0 +1,5 @@
+export const btnsActionTypes = {
+    GET_BTN_VALUE: "GET_BTN_VALUE",
+    GET_BTN_ACTION: "GET_BTN_ACTION",
+    GET_LAST_ACTION: "GET_LAST_ACTION"
+}

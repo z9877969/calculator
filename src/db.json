@@ -1,0 +1,13 @@
+{
+    "auth": [
+        {
+            "id": "1",
+            "email": "xxx@mail.com",
+            "password": "xxx",
+            "userId": 1
+        }
+    ],
+    "users": [
+        
+    ]
+}
